@@ -1,0 +1,44 @@
+-----------------------------------------------------------
+Twitter_Analyser  Version == V4.1	09062021	Dharani
+-----------------------------------------------------------
+-File renamed to Twitter_Analyser  
+-Version info added to the title bar of main UI
+
+-----------------------------------------------------------
+Twitter_Analyzer  Version == V4	03062021	Dharani
+-----------------------------------------------------------
+-Specfile changes to addd textblob
+
+-----------------------------------------------------------
+Twitter_Analyzer  Version == V3	03062021	Dharani
+-----------------------------------------------------------
+-Exit button name and function name changed
+-userlist var name changed to (Ind_List,Comp1_List,Comp2_List,Hash_List)
+-Wsignup var name changed to Analyze_Btn and getvalue function changed to Analyze_Ind.....
+-In dropdown twitter ids were added
+-Cleaned the twitter login
+-Winner label error fixed
+-Cleanup tweets unwanted function deleted
+
+-----------------------------------------------------------
+Twitter_Analyzer  Version == V2	02062021	Dharani
+-----------------------------------------------------------
+-View tweets print Bug Fixed (V1 Error)
+-unwanted imports cleared
+-Reduced LOC (Lines of Code)
+-Few Var name changes
+-Scraped_tweetes.csv path changed to Images/temp
+-Removed Matplot Import and codes
+
+-----------------------------------------------------------
+Twitter_Analyzer  Version == V1	02062021	Dharani
+-----------------------------------------------------------
+-added view tweets in view.py
+-B1,2,3 Enable and Disable
+
+-----------------------------------------------------------
+Twitter_Analyzer  Version == V0	31052021	Dharani
+-----------------------------------------------------------
+-Folders path organised for csv,png,gif 's
+-cleaned unwanted codes
+-changed wordcloud path and names

@@ -1,0 +1,57 @@
+----------------------------
+Textblob polarity error 
+----------------------------
+no polarity data is found all text becomes neutral
+
+Fix:
+Add textblob/en folder(same as wordcloud folder)
+https://github.com/sloria/TextBlob/issues/185
+
+----------------------------
+Exe error 2 Word cloud
+----------------------------
+C:\Users\ADMIN\Desktop\output>Twitter_Analyzer_V3.exe
+barackobama
+Matplotlib is building the font cache; this may take a moment.
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "tkinter\__init__.py", line 1883, in __call__
+  File "Twitter_Analyzer_V3.py", line 214, in Analyze_Ind
+  File "wordcloud\wordcloud.py", line 640, in generate
+  File "wordcloud\wordcloud.py", line 622, in generate_from_text
+  File "wordcloud\wordcloud.py", line 454, in generate_from_frequencies
+  File "wordcloud\wordcloud.py", line 504, in generate_from_frequencies
+  File "PIL\ImageFont.py", line 836, in truetype
+  File "PIL\ImageFont.py", line 833, in freetype
+  File "PIL\ImageFont.py", line 193, in __init__
+OSError: cannot open resource
+
+Fix:
+Adding DroidSansMono.ttf font and stopwords in a wordcloud folder and onedir mode
+
+----------------------------
+Exe error 1 Word cloud
+----------------------------
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\ADMIN\output>C:\Users\ADMIN\output\Twitter_Analyzer_V0.exe
+Matplotlib is building the font cache; this may take a moment.
+Traceback (most recent call last):
+  File "Twitter_Analyzer_V0.py", line 27, in <module>
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "PyInstaller\loader\pyimod03_importers.py", line 540, in exec_module
+  File "wordcloud\__init__.py", line 1, in <module>
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "PyInstaller\loader\pyimod03_importers.py", line 540, in exec_module
+  File "wordcloud\wordcloud.py", line 35, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\ADMIN\\AppData\\Local\\Temp\\_MEI55282\\wordcloud\\stopwords'
+[4340] Failed to execute script Twitter_Analyzer_V0
+
+Fix
+https://www.programmersought.com/article/5635871566/
