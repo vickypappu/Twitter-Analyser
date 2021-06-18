@@ -1,5 +1,5 @@
 # Twitter-Analyser
-This is my BE Degree project, Built using python
+This is my BE Degree project, Built using python 3.8
 
 How to Configure and Run:
 1. Clone the Repo https://github.com/vickypappu/Twitter-Analyser
@@ -8,4 +8,5 @@ How to Configure and Run:
 4. Pip install Requirement.txt (command to install all required modules)
 5. Run the Twitter-Analyser.py and UI will Appear
 
-Now you can try different screens, If you find a bug please raise issue on github here(https://github.com/vickypappu/Twitter-Analyser/issues/new/choose)
+Now you can try different screens, If you find a bug please raise issue on github here using the below link
+https://github.com/vickypappu/Twitter-Analyser/issues/new/choose
