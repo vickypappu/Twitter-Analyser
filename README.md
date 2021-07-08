@@ -1,5 +1,13 @@
-# Twitter Sentiment Analysis on Python GUI :notebook:
-On this Repo created a Twitter Sentiment Analysis on python GUI (Tkinter) library.
+# Twitter-Analyser
+This is my BE Degree project, Built using python 3.8
+
+How to Configure and Run:
+1. Clone the Repo https://github.com/vickypappu/Twitter-Analyser
+2. Get Developer access from twitter and save the details in Login.csv under Settings
+3. Install Python 3.8 and above if not installed before
+4. Pip install Requirement.txt (command to install all required modules)
+5. Run the Twitter-Analyser.py and UI will Appear
+
 
 [![](https://camo.githubusercontent.com/2fb0723ef80f8d87a51218680e209c66f213edf8/68747470733a2f2f666f7274686562616467652e636f6d2f696d616765732f6261646765732f6d6164652d776974682d707974686f6e2e737667)](https://python.org)
 
