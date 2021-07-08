@@ -8,51 +8,27 @@ On this Repo created a Twitter Sentiment Analysis on python GUI (Tkinter) librar
 <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/pandas.png" width="300">    <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/numpy.png" width="200">      <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/tweepy.webp" width="200">     <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/textblob.png" width="200">    <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/wordcloud.png" width="300">   <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/tkinter.jpg" width="300">
 
 
-# Disclaimer :skull_and_crossbones:
-I am not provideing twitter **API** keys. You have get twitter API keys on twitter developer account. Get [API Keys](https://developer.twitter.com/)
-
-Get a API key and put in the below code section
-
-```python
-def click():  
-    user_name = user_value.get()
-    hash_name = hash_value.get()
-    
-    #insert here twitter API keys
-    consumerKey = ""
-    consumerSecret = ""
-    accessToken = ""
-    accessTokenSecret = ""
-    
-    authenticate = tweepy.OAuthHandler(consumerKey, consumerSecret)
-    authenticate.set_access_token(accessToken, accessTokenSecret)
-    api = tweepy.API(authenticate, wait_on_rate_limit = True) # api object
-```
-# Application :loudspeaker:
-Ckeck out Twitter Sentiment Analysis on python **Flask** App :point_right: [click here](https://github.com/yogeshnile/Twitter-Sentiment-Analysis-on-Flask-App)
-
-Ckeck out Twitter Sentiment Analysis on python **Jupyter Notebook** :point_right: [click here](https://github.com/yogeshnile/Sentiment-Analysis-of-Twitter-Account)
-    
-
 ## ScreenShot :camera_flash:
 
-<img src="https://github.com/yogeshnile/Twitter-Sentiment-Analysis-on-Python-GUI/blob/master/Images/3.png"/> 
+<img src="https://github.com/vickypappu/Twitter-Analyser/blob/main/Images/ScreenShot/HomeScreen.png"/> 
 
-<img src="https://github.com/yogeshnile/Twitter-Sentiment-Analysis-on-Python-GUI/blob/master/Images/1.png"/> 
+<img src="https://github.com/vickypappu/Twitter-Analyser/blob/main/Images/ScreenShot/Individual.png"/> 
 
-<img src="https://github.com/yogeshnile/Twitter-Sentiment-Analysis-on-Python-GUI/blob/master/Images/2.png"/> 
+<img src="https://github.com/vickypappu/Twitter-Analyser/blob/main/Images/ScreenShot/ViewTweets.png"/>
+
+<img src="https://github.com/vickypappu/Twitter-Analyser/blob/main/Images/ScreenShot/Comparision.png"/> 
 
 ## Bug / Feature Request :man_technologist:
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/yogeshnile/Twitter-Sentiment-Analysis-on-Python-GUI/issues/new) by including your search query and the expected result.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/vickypappu/Twitter-Analyser/issues/new) by including your search query and the expected result.
 
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/yogeshnile/Twitter-Sentiment-Analysis-on-Python-GUI/issues/new). Please include sample queries and their corresponding results.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/vickypappu/Twitter-Analyser/issues/new). Please include sample queries and their corresponding results.
 
 
 ## Connect with me! 🌐
-Known on internet as **Yogesh Nile**
+Known on internet as **Dharani**
 
-[<img target="_blank" src="https://img.icons8.com/bubbles/100/000000/linkedin.png" title="LinkedIn">](https://bit.ly/2Ky3ho6)  [<img target="_blank" src="https://img.icons8.com/bubbles/100/000000/github.png" title="Github">](https://bit.ly/2yoggit) [<img target="_blank" src="https://img.icons8.com/bubbles/100/000000/twitter.png" title="Twitter">](https://bit.ly/3dbLJLC) [<img target="_blank" src="https://img.icons8.com/bubbles/100/000000/telegram-app.png" title="Telegram"/>](https://t.me/yogeshnile) [<img target="_blank" src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" title="Instagram">](https://bit.ly/3b9Qeo4)  [<img target="_blank" src="https://img.icons8.com/bubbles/100/000000/instagram.png" title="Instagram Personal">](https://bit.ly/32SXHV0)
+[<img target="_blank" src="https://img.icons8.com/bubbles/100/000000/linkedin.png" title="LinkedIn">](https://www.linkedin.com/in/dharani-rajendran-700512191/)  [<img target="_blank" src="https://img.icons8.com/bubbles/100/000000/github.png" title="Github">](https://github.com/vickypappu) [<img target="_blank" src="https://img.icons8.com/bubbles/100/000000/twitter.png" title="Twitter">](https://twitter.com/DharaniRajend13) 
 
 ## Email Me :e-mail:
 
-[<img target="_blank" src="https://img.icons8.com/bubbles/100/000000/secured-letter.png" title="Mail me">](mailto:yogeshnile.work4u@gmail.com)
+[<img target="_blank" src="https://img.icons8.com/bubbles/100/000000/secured-letter.png" title="Mail me">](mailto:rdharani2401@gmail.com)
